@@ -1,9 +1,14 @@
 # Ignore node_modules
 node_modules/
 
+isms-backend/node_modules/
+isms-frontend/node_modules/
+
 # Ignore environment files
 
-.env.*
+.env
+isms-backend/.env
+
 
 # Ignore logs
 npm-debug.log*
